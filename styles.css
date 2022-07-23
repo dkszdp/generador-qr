@@ -1,0 +1,233 @@
+:root {
+    --beige: #f5f5dc;
+    --azul: #6495ed;
+    --azuloscuro: #276ff5;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+    background: var(--beige);
+}
+.titulo {
+    background: var(--azul);
+    text-align: center;
+    width: 50%;
+    padding: auto;
+    font-size: x-large;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.contenedor {
+    background: var(--azul);
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pie {
+    background: var(--azul);
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+.contenedorQR {
+    display: flex;
+    justify-content: center;
+}
+.formulario input[type='text'] {
+	padding: 20px;
+	border: none;
+	background: var(--beige);
+	width: 40%;
+    height: 10px;
+	border-radius: 5px;
+	font-size: 20px;
+	margin-bottom: 20px;
+	font-family: 'Nunito', sans-serif;
+}
+.formulario .btn {
+	width: 30%;
+	border: none;
+	background: var(--beige);
+	color: #000;
+	cursor: pointer;
+	padding: 20px;
+	font-size: 20px;
+	border-radius: 5px;
+	font-family: 'Nunito', sans-serif;
+}
+.formulario .btn:hover {
+	background: var(--azuloscuro);
+}
+
+
+/* para 980px o menos*/
+@media screen and (max-width:980px) {
+    .titulo {
+        text-align: center;
+        width: 80%;
+        padding: auto;
+        font-size: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contenedor {
+        text-align: center;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contenedorQR {
+        display: inline-flex;
+        justify-content: center;
+        width: 330px;
+        height: 330px;
+        margin-bottom: 15px;
+    }
+    .formulario input[type='text'] {
+        padding: 20px;
+        border: none;
+        width: 70%;
+        height: 10px;
+        border-radius: 5px;
+        font-size: 30px;
+        margin-bottom: 20px;
+        font-family: 'Nunito', sans-serif;
+    }
+    .formulario .btn {
+        width: 40%;
+        border: none;
+        cursor: pointer;
+        padding: 15px;
+        font-size: 25px;
+        border-radius: 5px;
+        font-family: 'Nunito', sans-serif;
+    }
+    .pie {
+        text-align: center;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    footer {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: large;
+    }
+}
+/* para 700px o menos */
+@media screen and (max-width:700px) {
+    .titulo {
+        text-align: center;
+        width: 80%;
+        padding: auto;
+        font-size: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contenedor {
+        text-align: center;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contenedorQR {
+        display: flex;
+        justify-content: center;
+    }
+    .formulario input[type='text'] {
+        padding: 20px;
+        border: none;
+        width: 50%;
+        height: 10px;
+        border-radius: 5px;
+        font-size: 20px;
+        margin-bottom: 20px;
+        font-family: 'Nunito', sans-serif;
+    }
+    .formulario .btn {
+        width: 30%;
+        border: none;
+        cursor: pointer;
+        padding: 15px;
+        font-size: 15px;
+        border-radius: 5px;
+        font-family: 'Nunito', sans-serif;
+    }
+    .pie {
+        text-align: center;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    footer {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+/* para 480px o menos */
+@media screen and (max-width:480px) {
+    .titulo {
+        text-align: center;
+        width: 80%;
+        padding: auto;
+        font-size: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contenedor {
+        text-align: center;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contenedorQR {
+        display: inline-flex;
+        justify-content: center;
+        width: 200px;
+        height: 200px;
+    }
+    .formulario input[type='text'] {
+        padding: 20px;
+        border: none;
+        width: 70%;
+        height: 10px;
+        border-radius: 5px;
+        font-size: 20px;
+        margin-bottom: 20px;
+        font-family: 'Nunito', sans-serif;
+    }
+    .formulario .btn {
+        width: 60%;
+        border: none;
+        cursor: pointer;
+        padding: 15px;
+        font-size: 15px;
+        border-radius: 5px;
+        font-family: 'Nunito', sans-serif;
+    }
+    .pie {
+        text-align: center;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    footer {
+        display: inline;
+        justify-content: space-evenly;
+    }
+}

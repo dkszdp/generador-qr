@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Generador-QR</title>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap" rel="stylesheet">
+		<link rel="icon" href="qr.ico">
+		<link rel="stylesheet" href="styles.css" />
+		<script defer src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+		<script defer src="app.js"></script>
+	</head>
+	<body>
+        <div class="titulo">
+            <h1>Generador de códigos QR</h1>
+        </div>
+		<div class="contenedor">
+            <br>
+			<form action="" id="formulario" class="formulario">
+				<input type="text" id="link" placeholder="Escribe el texto o URL" />
+                <br>
+				<button class="btn">Generar código</button>
+			</form>
+            <br>
+			<div id="contenedorQR" class="contenedorQR"></div>
+            <br>
+		</div>
+        <br>
+        <div class="pie">
+            <footer>
+                <br>
+                <p>Página creada por dkszdp ⚡</p><p>Todos los derechos reservados ©</p>
+                <br>
+            </footer>
+        </div>
+	</body>
+</html>
